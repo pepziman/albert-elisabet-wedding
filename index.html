@@ -1,352 +1,79 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Invitation Wedding Albert Leonardo Pisa & Elisabet Novi Tri Andriani</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Invitation Wedding Albert Leonardo Pisa & Elisabet Novi Tri Andriani" />
-	<meta name="keywords" content="wedding, invitation wedding, Albert Leonardo Pisa, Elisabet Novi Tri Andriani" />
-	<meta name="albert.leo93@gmail.com" content="albert.leo93@gmail.com" />
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert & Elisabet Wedding</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script>
+    function updateCountdown() {
+      const targetDate = new Date("2025-07-26T10:00:00+07:00").getTime();
+      const now = new Date().getTime();
+      const distance = targetDate - now;
 
-  
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+      document.getElementById("countdown").innerHTML = `${days} Hari ${hours} Jam ${minutes} Menit ${seconds} Detik`;
+    }
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+    setInterval(updateCountdown, 1000);
+  </script>
+</head>
+<body class="bg-gradient-to-b from-pink-50 to-white font-serif text-gray-800">
+  <section class="text-center py-10">
+    <h1 class="text-4xl md:text-5xl font-bold text-pink-700">Albert & Elisabet</h1>
+    <p class="text-lg mt-2">Sabtu, 26 Juli 2025</p>
+    <p class="mt-4">Dengan sukacita kami mengundang Anda untuk merayakan hari bahagia kami</p>
+  </section>
 
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <section class="text-center bg-pink-100 py-6">
+    <h2 class="text-2xl font-bold">Countdown</h2>
+    <p id="countdown" class="text-xl mt-2"></p>
+  </section>
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+  <section class="text-center py-10">
+    <h2 class="text-2xl font-bold mb-4">Detail Acara</h2>
+    <p class="font-semibold">Holy Matrimony:</p>
+    <p>Sabtu, 26 Juli 2025, pk 10.00 - 12.00 WIB</p>
+    <p>GKI Diponegoro Surabaya</p>
+    <br />
+    <p class="font-semibold">Wedding Reception:</p>
+    <p>Sabtu, 26 Juli 2025, pk 14.00 - 16.00 WIB</p>
+    <p>Regantris Hotel Surabaya</p>
+  </section>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
-	<script src="js/realteamdbfirebase.js"></script>
-	<link rel="icon" href="images/icon.png"/>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+  <section class="text-center bg-pink-50 py-10">
+    <h2 class="text-2xl font-bold mb-4">Tentang Mempelai</h2>
+    <p><strong>Albert Leonardo Pisa</strong></p>
+    <p>Anak kedua dari Bapak Paulus Sutjahjo Agung dan Ibu Ida Handayani</p>
+    <br />
+    <p><strong>Elisabet Novi Tri Andriani</strong></p>
+    <p>Anak ketiga dari Alm. Bapak Aman Yahya Bastama dan Ibu Dasinah</p>
+  </section>
 
-	</head>
+  <section class="text-center py-10">
+    <h2 class="text-2xl font-bold mb-4">Lokasi Acara</h2>
+    <p class="mb-2 font-semibold">GKI Diponegoro Surabaya</p>
+    <iframe class="w-full md:w-3/4 mx-auto h-64 mb-6" src="https://www.google.com/maps?q=GKI+Diponegoro+Surabaya&output=embed"></iframe>
 
-	<body>
-		
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-		
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo">
-						<a href="index.html">
-								<img src="images/logo.png" alt="groom" class="img-responsive-logo">
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li><a href="#fh5co-event">Event</a></li>
-						<li><a href="#fh5co-testimonial">Wishes</a></li>
-						<li><a href="#fh5co-gallery">Location</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
+    <p class="mb-2 font-semibold">Regantris Hotel Surabaya</p>
+    <iframe class="w-full md:w-3/4 mx-auto h-64" src="https://www.google.com/maps?q=Regantris+Hotel+Surabaya&output=embed"></iframe>
+  </section>
 
-	<header class="fh5co-cover">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading-top3 animate-box">
-								<h2>The Wedding Of</h2>
-							</div>
-							<div class="bride">
-								<img src="images/logo-notext.png" alt="groom" class="img-responsive-logo">
-							</div>
-							<h1>Albert &amp; Elisa</h1>
-							<h2 >Kepada YTH. <div id="namewhiser">name</div>   </h2>						
-							<div class="simply-countdown simply-countdown-one fh5co-heading-top3">
-							</div>
-							<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Invitation+Wedding&details=Invitation+Wedding+Albert+Leonardo+Pisa+&+Elisabet+Novi+Tri+Andriani&dates=20250625T100000/20230604T120000&recur=RRULE:FREQ%3DWEEKLY;UNTIL%3D20210603&ctz=Indonesia/Kediri" class="btn btn-default btn-sm" target="_blank"> <i class="fa fa-calendar"></i> Save the date</a></p>
-							
-							<div class="fh5co-heading-bottom">
-								<h2><b>26 Juli 2025</b></h2>
-							</div>
-							<audio autoplay>
-								<source src="sound/wedding.mp3" type="audio/mpeg">
-							</audio>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+  <section class="bg-pink-100 py-10 text-center">
+    <h2 class="text-2xl font-bold mb-4">RSVP & Ucapan</h2>
+    <form action="https://formspree.io/f/mwkgnvpq" method="POST" class="w-full max-w-md mx-auto">
+      <input type="text" name="name" placeholder="Nama Anda" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+      <textarea name="message" placeholder="Ucapan untuk pengantin" class="w-full p-2 mb-4 border border-gray-300 rounded" required></textarea>
+      <button type="submit" class="bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700">Kirim</button>
+    </form>
+  </section>
 
-	<div id="fh5co-couple">
-		<div class="container">
-			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-				<h2 class="fh5co-heading">We are getting married</h2>
-				<div class="couple-wrap animate-box fh5co-heading-top3">
-					<div class="couple-half">
-						<div class="groom">
-							<img src="images/groom.jpg" alt="groom" class="img-responsive">
-						</div>
-						<div class="desc-groom">
-							<h3>Albert Leonardo Pisa</h3>
-							<div class="text-center">
-								<div><small>Putra Dari</small></div>
-								<div><small>Bapak <b><a class="hadir">Paulus Sutjahjo Agung</a></b></small></div>
-								<div><small>&</small></div>
-								<div><small>Ibu <b><a class="hadir">Ida Handayani</a></b></small></div>
-							</div>
-						</div>
-					</div>
-					<p class="heart text-center" ><i class="icon-heart2"></i></p>
-					<div class="couple-half fh5co-heading-top3 fh5co-heading-bottom ">
-						<div class="bride">
-							<img src="images/bride.jpg" alt="groom" class="img-responsive">
-						</div>
-						<div class="desc-bride">
-							<h3>Elisabet Novi Tri Andriani</h3>
-							<div class="text-center">
-								<div><small>Putri Dari</small></div>
-								<div><small>Bapak <b><a class="hadir">Alm. Aman Yahya Bastama</a></b></small></div>
-								<div><small>&</small></div>
-								<div><small>Ibu <b><a class="hadir">Dasinah</a></b></small></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-event" class="fh5co-bg">
-		<div class="overlay"></div>
-		<div class="container">
-			
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Holy Matrimony</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>10:00 WIB</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Sabtu, 26 Juli 2025</span>
-									</div>
-									<div class="text-center animate-box">
-										<b style='color:white !important;'>GKI Diponegoro Surabaya</b> 
-										<p> Jl. Diponegoro No.146, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Resepsi</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span id="date">14:00 - 16:00 WIB</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Sabtu, 26 Juli 2025</span>
-									</div>
-									<div class="text-center animate-box">
-										<b style='color:white !important;'>Regantris Hotel</b> 
-										<p> Jl. Dr. Soetomo No.79-81, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-
-
-	<div id="fh5co-gallery" class="fh5co-section-white">
-		<div class="container">
-			<div class="row display-t">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fh5co-heading-top3 display-tc">
-					<h2>Lokasi Acara</h2>
-						<div class="text-center animate-box">
-							<b style='color:black !important;'>Regantris Hotel</b> 
-							<h4> Jl. Dr. Soetomo No.79-81, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264</h4>
-						</div>
-					<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Regantris Hotel, Jl. Dr. Soetomo No.79-81, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
-					<p class="fh5co-heading-top1"><a href="https://maps.google.com/maps?q=Regantris Hotel, Jl. Dr. Soetomo No.79-81, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur" class="btn btn-default btn-sm" target="_blank"> <i class="fa fa-map-marker"></i> Buka Lokasi</a></p>
-					
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				
-			</div>
-		</div>
-	</div>
-	
-
-	<div id="fh5co-testimonial">
-		<div class="containerform">
-			<div class="row">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Ucapan & Doa Restu</h2>
-						<small>Berikan Ucapan Terbaik dan Doa Restu Kepada Kedua Mempelai</small>
-
-						<div class="containerform">
-						    <input type="text" id="fname" name="firstname" placeholder="Nama">
-
-						    <textarea id="message" name="subject" placeholder="Pesan" style="height:200px"></textarea>
-							<select name="confirm" id="confirm">
-								<optgroup label="Konfirmasi Kehadiran">
-									<option value="not" selected disabled hidden>Konfirmasi Kehadiran</option>
-									<option value="Hadir">Hadir</option>
-									<option value="Tidak Hadir">Tidak Hadir</option>
-								</optgroup>
-							  </select>
-							  <p><a  onClick="pushData()" class="btn btn-default btn-sm" target="_blank"> <i class="fa fa-paper-plane"></i> Kirim Ucapan</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony text-center">
-							
-								<div class="item" id="itemwish">
-										
-								</div>	
-								
-								<div class="fh5co-heading-top1" id="loadmore">
-									 <p><a  onClick="loadMore()" class="btn btn-default btn-sm" target="_blank"> <i class="fa fa-spinner"></i> Tampilkan Ucapan Seluruhnya</a></p>
-								</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	
-
-
-
-	
-
-	
-	</div>
-
-<div class="modal fade" id="modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
-                     </div>
-					
-                    <div class="modal-body">
-                       
-						<div class="thank-you-pop fh5co-heading">
-							<img src="images/logo-black.png" alt="groom" class="img-responsive-logo">
-							<h2>Thank You!</h2>
-							<p>Your are wisher favorite</p>
-							
- 						</div>
-                         
-                    </div>
-					
-                </div>
-            </div>
-        </div>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-
-	<script>
-	    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-
-	    // default example
-	    simplyCountdown('.simply-countdown-one', {
-	        year: 2023, 
-	  		month: 6, 
-	  		day: 4,
-	    });
-
-	    //jQuery example
-	    $('#simply-countdown-losange').simplyCountdown({
-	        year: d.getFullYear(),
-	        month: d.getMonth() + 1,
-	        day: d.getDate(),
-	        enableUtc: false
-	    });
-	</script>
-
-	</body>
+  <footer class="text-center py-4 text-sm text-gray-500">
+    <p>Made with 💖 for Albert & Elisabet</p>
+  </footer>
+</body>
 </html>
-
